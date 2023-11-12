@@ -1,0 +1,59 @@
+---
+title: "Google Play Store Reccomender Analysis"
+author: "Kelly Eng"
+date: "2023-11-12"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Scenario Design Analysis
+
+Android is the most used operating system on Earth. Most Android phones come with the Google Play Store pre-installed. There are alternative app stores such as the Galaxy Store, Amazon App Store, and F-Droid for example. The most popular is the Google Play Store which is what most people use to download their apps from. The Google Play Store makes recommendations based on what the user already have installed and what's popular.
+
+Consider whether it makes sense for your selected recommender system to perform scenario design twice, once for the organization (e.g. Amazon.com) and once for the organization's customers.
+
+## For the Organization (Google)
+
+1. Who are your target users?
+
+The target users are people who own Android phones and people interested in mobile development.
+
+2. What are their key goals?
+
+The key goal is to get as many users as possible to download something from the play store and make money off of that. Many developers use ads to monetize their apps. The bigger the user base for someone that views the ads, the more the developers will earn. Some choose not to put ads but make a paid app instead. Regardless of how developers monetize their apps, Google takes a 30% cut of all money earned. The Google Play Store not only offers apps, but movies, tv shows, and books, so they make money off of it as well.
+
+3. How can you help them accomplish those goals?
+
+The Google Play Store makes recommendations based on what people currently have installed, what they installed in the past, and what's popular. The user base can also see something they're interested in by looking at the most popular apps for each category, such as education for example. Developers pay a one time $25 fee to Google to be able to put their apps on the Google Play Store. The Google Play Store also have a yearly best apps of the year list, this can be an incentive for developers to make good apps. Having an app put in the spotlight will get more people to download it, increasing revenue not only for the developer, but for Google as well. Google also offer developers app campaigns to reach more people, this can help users discover apps they didn't consider downloading before. 
+
+## For the Organization's Customer
+
+1. Who are your target users?
+
+The target users for people that own Android phones are the developers who make Android apps. 
+
+2. What are their key goals?
+
+The key goals of Android users are to support the developers of the apps on their phone by either purchasing them from the Google Play Store or using the apps frequently.
+
+3. How can you help them accomplish those goals?
+
+The users can rate apps they like highly, as a result this causes the Google Play Store to be more likely to recommend the app to others. The user can also tell other people about it and things can spread through word of mouth.
+
+## Reverse Engineer
+
+The top left of the site have a section for apps, games, movies & tv, and books. The search bar and an icon to log in is at the top right. Below that shows what apps, books, etc is trending. Underneath that is popular apps, current events, and categories for other things. The Google Play Store uses machine learning to recommend apps to users.
+
+Link: https://deepmind.google/discover/blog/advanced-machine-learning-helps-play-store-users-discover-personalised-apps/
+
+Here is also a paper on the Google Play Store recommender system: https://thesai.org/Downloads/Volume11No9/Paper_6-A_Recommender_System_for_Mobile_Applications.pdf
+
+
+## Reccomendations for Improvement
+
+I think the site's recommendation capabilities can be improved if they showcase newly released apps by indie companies or solo developers more often. As it is, big companies and experienced developers have an advantage due to having already having an existing user base. Instead of only having a section for top downloaded apps of all time. The site does have a section for top downloaded section for newly released apps, but they're saturated with experienced developers behind them. They should have one for new developers as well to let users discover more apps, this will give others a chance to grow and provide them with motivation for creating quality apps.
